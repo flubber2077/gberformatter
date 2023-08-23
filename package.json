@@ -12,7 +12,6 @@
   "license": "ISC",
   "devDependencies": {
     "@types/hex-array": "^1.0.0",
-    "@types/html-to-text": "^9.0.1",
     "@types/iconv": "^3.0.1",
     "@types/node": "^20.5.1",
     "@typescript-eslint/eslint-plugin": "^6.4.0",
@@ -21,10 +20,9 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "detect-file-encoding-and-language": "^2.4.0",
+    "epub-to-text": "git+https://github.com/Projet-TAMIS/epub-to-text",
     "hex-array": "^1.0.0",
-    "html-to-text": "^9.0.5",
     "iconv": "^3.0.1",
-    "epub-to-text": "git+https://github.com/Projet-TAMIS/epub-to-text"
+    "word-wrap": "^1.2.5"
   }
 }
